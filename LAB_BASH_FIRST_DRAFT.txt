@@ -1,0 +1,113 @@
+Microsoft Windows [version 10.0.22631.3296]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\torra>cd IH-Labs
+
+C:\Users\torra\IH-Labs>cd lab-bash
+
+C:\Users\torra\IH-Labs\lab-bash>echo "Hello World!"
+"Hello World!"
+
+C:\Users\torra\IH-Labs\lab-bash>mkdir new_dir
+
+C:\Users\torra\IH-Labs\lab-bash>rmdir new_dir
+
+C:\Users\torra\IH-Labs\lab-bash>copy sed.txt C:\Users\torra\IH-Labs\lab-bash\lorem-copy
+Le fichier spécifié est introuvable.
+
+C:\Users\torra\IH-Labs\lab-bash>cd lorem
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>copy sed.txt C:\Users\torra\IH-Labs\lab-bash\lorem-copy
+        1 fichier(s) copié(s).
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>copy at.txt  C:\Users\torra\IH-Labs\lab-bash\lorem-copy; copy lorem.txt  C:\Users\torra\IH-Labs\lab-bash\lorem-copy
+La syntaxe de la commande n’est pas correcte.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>copy at.txt;lorem.txt  C:\Users\torra\IH-Labs\lab-bash\lorem-copy
+La syntaxe de la commande n’est pas correcte.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>copy at.txt ; lorem.txt  C:\Users\torra\IH-Labs\lab-bash\lorem-copy
+La syntaxe de la commande n’est pas correcte.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>copy at.txt lorem.txt  C:\Users\torra\IH-Labs\lab-bash\lorem-copy
+La syntaxe de la commande n’est pas correcte.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>copy at.txt C:\Users\torra\IH-Labs\lab-bash\lorem-copy
+        1 fichier(s) copié(s).
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>copy lorem.txt C:\Users\torra\IH-Labs\lab-bash\lorem-copy
+        1 fichier(s) copié(s).
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>head sed.txt
+'head' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>cat sed.txt
+'cat' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>more sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>more at.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>more lorem.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>cd lorem-copy
+Le chemin d’accès spécifié est introuvable.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>cd lorem-copy
+Le chemin d’accès spécifié est introuvable.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem>cd C:\Users\torra\IH-Labs\lab-bash\lorem-copy
+
+C:\Users\torra\IH-Labs\lab-bash\lorem-copy> awk FNR==3 sed.txt
+'awk' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem-copy>awk 'FNR==3' sed.txt
+'awk' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem-copy>head -n 3 sed.txt
+'head' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem-copy>head -3 sed.txt
+'head' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem-copy>read line 1 sed.txt
+'read' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem-copy>echo line 1 sed.txt
+line 1 sed.txt
+
+C:\Users\torra\IH-Labs\lab-bash\lorem-copy>Get-Content  -Path C:\Users\torra\IH-Labs\lab-bash\lorem-copy\sed.txt -TotalCount 3
+'Get-Content' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\torra\IH-Labs\lab-bash\lorem-copy>
